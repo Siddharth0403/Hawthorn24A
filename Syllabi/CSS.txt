@@ -21,22 +21,23 @@ CSS✅
  Understanding px, %. ✅
  Understanding width & height.✅ 
  Css types. Inline, Internal, External.✅ 
- Css Box model. 
+ Css Box model. ✅  
 
- Visibility: Hidden. 
- Display properties (Block, Inline, None). 
+ Visibility: Hidden. ✅
+ Display properties (Block, Inline, None). ✅
 
 //Adv
 
- Display (flex) 
- Justify Content(w), Align items(h) 
- Position 
+ Display (flex) ✅
+ Justify Content(w), Align items(h) ✅ 
+ Position ✅
   (Top,Bottom,Right,Left)
   (Static, Relative, Absolute, Fixed, Sticky).
- Z index Property
- Gradients 
+ Z index Property✅
+ Gradients ✅
  (linear, conic, radial).
- Static Web Page Layout. (img inserted)
+
+ Static Web Page Layout.
  
  Box-effects 
  (https://getcssscan.com/css-box-shadow-examples).

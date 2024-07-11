@@ -4,9 +4,59 @@ Difference between SQL & NOSQL
 Install SQL 
 
 Queries {
-    show,Create using CMD
+    show using CMD
 }
 
 mySQL workbench{
     Setup new connection
 }
+
+Rules for String{
+    varchar(no. of characters)
+}
+
+Queries==
+
+create database <database name>;
+
+USE <database_name>;
+
+SHOW DATABASES;
+
+CREATE TABLE student(rollno int, name varchar(20), address varchar(100)); 
+
+SELECT <column name>, FROM <table name>;
+
+DROP DATABASE <database name>;
+
+DROP TABLE <table name>;
+
+ALTER TABLE <table_name> ADD <new_column_name> <data type>;
+
+ALTER TABLE <table_name> DROP COLUMN <column_name>;
+
+ALTER TABLE <table_name> RENAME COLUMN <old_column_name> TO <new_column_name>;
+
+ALTER TABLE <table_name> MODIFY COLUMN <column_name> <new_data_type>;
+
+INSERT INTO <table name>(<column name>) VALUE (<value>);
+
+INSERT INTO <table name> VALUE (<value>);
+
+INSERT INTO student (rollno, name, address) VALUE (1, 'CHACHI', 'Pune');
+
+INSERT INTO student (name, rollno, address) VALUE ('CHACHA', 2, 'PUNE');
+
+TRUNCATE TABLE <table_name>
+
+Constraints{
+    UNIQUE
+    NOT NULL
+    AUTO_INCREMENT
+    DEFAULT
+    PRIMARY KEY
+    FOREIGN KEY
+}
+
+CREATE TABLE student(rollno int UNIQUE, name varchar(20), address varchar(100)); 
+

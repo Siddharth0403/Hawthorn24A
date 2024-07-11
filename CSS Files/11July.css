@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy Light;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  margin-left: 5%;
+  margin-top: 10%;
+  height: 50%;
+  width: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  /* background-color: blueviolet; */
+}
+.rwd {
+  height: 20%;
+  width: 20%;
+}
+
+/* Responsive Web Design.  */
+
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px) {
+  .rwd {
+    background: red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .rwd {
+    background: green;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .rwd {
+    background: blue;
+    /* display: none; */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .rwd {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .rwd {
+    background: rgb(218, 192, 255);
+  }
+}
