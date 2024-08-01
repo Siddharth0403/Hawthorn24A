@@ -60,3 +60,12 @@ Constraints{
 
 CREATE TABLE student(rollno int UNIQUE, name varchar(20), address varchar(100)); 
 
+Creating relation between Primary Key & Secondary Key
+
+CREATE TABLE marks(rollno int, Maths int, English int, FOREIGN KEY (rollno) REFERENCES stuedent (rollno))
+
+
+
+
+
+

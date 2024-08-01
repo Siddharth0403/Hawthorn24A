@@ -38,7 +38,7 @@ Objects✅
     -(key:value)
 
 ***** ADVANCE JS ******
-
+    
 var vs let,const (es5 & es6)✅
 
 Scope of var, let, const✅
@@ -52,8 +52,7 @@ Browser context Api
                     document.
                     setTimeout
                     setInterval
-        -stack (FI-FO)✅
-        -heap memory (temporary memory)✅   
+        
 
 Execution context{✅
     variables
